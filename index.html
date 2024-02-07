@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Catalog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/spinner.css" />
+    <link rel="stylesheet" href="css/leftSideArticle.css" />
+    <link rel="stylesheet" href="css/rightSideArticle.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Star Wars Catalog</h1>
+    </header>
+    <section class="container">
+      <article class="left-side">
+        <h2 class="sub-header">Characters</h2>
+        <div class="loading"><div class="loader"></div></div>
+        <div class="characters hide"></div>
+        <nav class="navbar hide"></nav>
+      </article>
+      <article class="right-side">
+        <h2 class="sub-header">Details</h2>
+        <div class="loading"><div class="loader"></div></div>
+        <div class="empty-details hide">
+          <h3>Click on a character to the left for more details</h3>
+        </div>
+        <div class="details hide">
+          <div class="character"></div>
+          <div class="homeworld"></div>
+        </div>
+      </article>
+    </section>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>

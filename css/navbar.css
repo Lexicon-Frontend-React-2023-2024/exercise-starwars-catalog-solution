@@ -1,0 +1,23 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  color: var(--yellow);
+  font-size: 1.5rem;
+}
+
+.navbar.hide {
+  display: none;
+}
+
+.navbar .material-symbols-outlined {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.navbar .left.disabled,
+.navbar .right.disabled {
+  color: gray;
+  cursor: not-allowed;
+}

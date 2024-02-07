@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+html {
+  --black: #19181c;
+  --navy: #1a2031;
+  --navy-lighter: #28324b;
+  --yellow: #ffd600;
+}
+
+body {
+  background-color: var(--black);
+}
+
+/* ########## Page Header ########## */
+
+.page-header {
+  align-items: center;
+  display: flex;
+
+  background-image: url(../assets/star-wars-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 30svh;
+  padding: 2rem;
+}
+
+.page-header h1 {
+  color: var(--yellow);
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+}
+
+/* ########## Container ########## */
+
+.container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+
+  position: relative;
+  top: -4rem;
+}
+
+/* ########## Article general styling ########## */
+
+.container article {
+  display: flex;
+  flex-direction: column;
+
+  aspect-ratio: 2/3;
+  background-color: var(--navy);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 380px;
+}
+
+.container article .sub-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  color: var(--yellow);
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 2rem;
+}
+
+/* ########## - ########## */
